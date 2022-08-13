@@ -1,0 +1,88 @@
+body{
+    background-color: #eae9e9;
+}
+body,.box1,.box2,.box3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box1,.box2,.box3,.box4{
+    width: 40vw;
+    height: fit-content;
+    border-radius: 1vh;
+    padding: 5px;
+    margin: 6px 0vh 6px;
+    background-color: #f8f8f8;
+    box-shadow: 1px 1px 2px grey;
+}
+a{
+    flex-wrap: wrap-reverse;
+    
+}
+img:first-of-type{
+    height: 7vh;
+    width: 20vw;
+    margin: 2vh 0 2vh;
+}
+.anch{
+    height: 10vh;
+    width: 20vh;
+    display: flex;
+    flex-direction: row;
+}
+.box2 img{
+    width: 38vw;
+    height: 40vh;
+    box-shadow:1px 1px 6px grey;
+}
+#ApieMus{
+    margin-bottom: -.5vh;
+}
+.box3 img:first-of-type{
+    height: 20vh;
+    width: 13vw;
+    margin: auto;
+
+}
+.box3 img:nth-of-type(2){
+margin-top: auto;
+}
+.box3 .marginZero{
+    margin-bottom: 0vh;
+}
+.box3{
+    padding-bottom: 1vh;
+}
+.box3 img:last-of-type{
+    height: 20vh;
+    width: 15vw;
+    margin-top: 5vh;
+}
+.box3 h3:nth-of-type(even){
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.box3 h3:last-of-type{
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.anch a{
+    margin: 0 20px 0 20px;
+    text-decoration: none;
+    color: black;
+}
+.anch{
+    width: fit-content;
+}
+.box3 span{
+    margin-bottom: 20px;
+}
+.box4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box4 ul{
+    align-self: flex-start;
+    margin-left: 1vw;
+}
